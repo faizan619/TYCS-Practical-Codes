@@ -4,8 +4,6 @@ from RMP import dict_gn
 start="Arad"
 end="Bucharest"
 result=" "
-
-
 def DLS(city,visitedstack,startlim,endlim):
     global result
     found=0
