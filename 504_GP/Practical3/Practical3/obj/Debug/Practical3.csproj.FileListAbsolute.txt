@@ -1,0 +1,8 @@
+D:\TYCS_Faizan\504_GP\Practical3\Practical3\bin\Debug\Practical3.exe
+D:\TYCS_Faizan\504_GP\Practical3\Practical3\bin\Debug\Practical3.pdb
+D:\TYCS_Faizan\504_GP\Practical3\Practical3\obj\Debug\Practical3.csprojResolveAssemblyReference.cache
+D:\TYCS_Faizan\504_GP\Practical3\Practical3\obj\Debug\Practical3.Form1.resources
+D:\TYCS_Faizan\504_GP\Practical3\Practical3\obj\Debug\Practical3.Properties.Resources.resources
+D:\TYCS_Faizan\504_GP\Practical3\Practical3\obj\Debug\Practical3.csproj.GenerateResource.Cache
+D:\TYCS_Faizan\504_GP\Practical3\Practical3\obj\Debug\Practical3.exe
+D:\TYCS_Faizan\504_GP\Practical3\Practical3\obj\Debug\Practical3.pdb
