@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.DirectX.Direct3D;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,8 +10,7 @@ using System.Windows.Forms;
 using Microsoft.DirectX;
 using Microsoft.DirectX.Direct3D;
 
-
-namespace Practical3
+namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
@@ -24,11 +24,10 @@ namespace Practical3
             InitFont();
             LoadTexture();
         }
-
         private void InitFont()
         {
             System.Drawing.Font f = new
-            System.Drawing.Font("Arial",16f,FontStyle.Regular);
+            System.Drawing.Font("Arial", 16f, FontStyle.Regular);
             font = new Microsoft.DirectX.Direct3D.Font(device, f);
         }
 
@@ -48,12 +47,25 @@ namespace Practical3
         {
             device.Clear(ClearFlags.Target, Color.Cyan, 0, 1);
             device.BeginScene();
-            using (Sprite s = new Sprite(device))
+            using (Sprite s = new
+                Sprite(device))
+            {
                 s.Begin(SpriteFlags.AlphaBlend);
+                s.Draw2D(texture, new Rectangle(0, 0, 0, 0), new Rectangle(0, 0, device.Viewport.Width, device.Viewport.Height), new Point(0, 0), 0f, new Point(0, 0), Color.White);
+                font.DrawText(s, "GAME PROGRAMMING", new Point(0, 0), Color.Black); s.End();
+            }
+            device.EndScene();
+            device.Present();
         }
+
         private void Form1_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+            Render();
         }
     }
 }
