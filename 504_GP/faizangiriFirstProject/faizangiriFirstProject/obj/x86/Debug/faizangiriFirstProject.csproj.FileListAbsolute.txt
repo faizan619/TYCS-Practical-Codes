@@ -1,0 +1,8 @@
+D:\TYCS-29-Navin\507\faizangiriFirstProject\faizangiriFirstProject\obj\x86\Debug\faizangiriFirstProject.csprojResolveAssemblyReference.cache
+D:\TYCS-29-Navin\507\faizangiriFirstProject\faizangiriFirstProject\obj\x86\Debug\faizangiriFirstProject.Form1.resources
+D:\TYCS-29-Navin\507\faizangiriFirstProject\faizangiriFirstProject\obj\x86\Debug\faizangiriFirstProject.Properties.Resources.resources
+D:\TYCS-29-Navin\507\faizangiriFirstProject\faizangiriFirstProject\obj\x86\Debug\faizangiriFirstProject.csproj.GenerateResource.Cache
+D:\TYCS-29-Navin\507\faizangiriFirstProject\faizangiriFirstProject\bin\x86\Debug\faizangiriFirstProject.exe
+D:\TYCS-29-Navin\507\faizangiriFirstProject\faizangiriFirstProject\bin\x86\Debug\faizangiriFirstProject.pdb
+D:\TYCS-29-Navin\507\faizangiriFirstProject\faizangiriFirstProject\obj\x86\Debug\faizangiriFirstProject.exe
+D:\TYCS-29-Navin\507\faizangiriFirstProject\faizangiriFirstProject\obj\x86\Debug\faizangiriFirstProject.pdb
