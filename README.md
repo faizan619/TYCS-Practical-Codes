@@ -1,16 +1,16 @@
 # Requirement for Practicals
 
- ## Artificial Intelligence
+ ## 501-Artificial Intelligence
     
     Python IDE  
 
- ## Internet Network Security
+ ## 502-Internet Network Security
 
     Netbeans
- ## Software Testing and Quality Assurance
+ ## 503-Software Testing and Quality Assurance
 
     Visual Studio + Selenium extension
 
- ## Game Programming
+ ## 504-Game Programming
 
     Visual Studio 
