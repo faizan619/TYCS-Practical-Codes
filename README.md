@@ -2,11 +2,11 @@
 
  ## Artificial Intelligence
     
-    python ide  
+    Python IDE  
 
  ## Internet Network Security
 
-    netbeans
+    Netbeans
  ## Software Testing and Quality Assurance
 
     Visual Studio + Selenium extension
