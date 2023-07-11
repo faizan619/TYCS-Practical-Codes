@@ -9,8 +9,11 @@
     Netbeans
  ## 503-Software Testing and Quality Assurance
 
-    Visual Studio + Selenium extension
+    Visual Studio  
+    Selenium extension
 
  ## 504-Game Programming
 
-    Visual Studio 
+    Visual Studio  
+    Unity  
+    Pygames   
