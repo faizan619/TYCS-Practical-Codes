@@ -1,12 +1,10 @@
-# Second Practical Questions
-## > What is Automation
-## > Benifits of Automation
-## > What text should be Automated
-## > What are different test rules
-## > What are the Automation Activities
+# Question of Practical 1
+## > What is Selinium
+## > History of selenium
+## > Selenium commands -- total three commands  
 
 # Steps to Perform Practical  
-## Go to Any Website link  
+## create a html page in netbeans    
 ## Copy The Website link  
 ## Open Selenium  
 ## write text name  
