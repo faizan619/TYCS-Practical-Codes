@@ -11,11 +11,11 @@ public class Practical2 {
         System.out.println("Enter 2 prime number");
         BigInteger p = new BigInteger(sc.next());
         BigInteger q = new BigInteger(sc.next());
-        BigInteger n = q.multiply(q);
+        BigInteger n = p.multiply(q);
         
         BigInteger one = new BigInteger("1");
         BigInteger two = p.subtract(one);
-        BigInteger three = p.subtract(one);
+        BigInteger three = q.subtract(one);
         BigInteger four = two.multiply(three);
         
         BigInteger e;
