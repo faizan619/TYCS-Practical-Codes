@@ -6,7 +6,7 @@ public class prac4 {
         System.out.println("Enter 2 prime Number, prime number P and primitive root G both users should agree on same");
         int P = sc.nextInt();
         int G = sc.nextInt();
-        System.out.println("ENter secret value by Alice :");
+        System.out.println("Enter secret value by Alice :");
         int a = sc.nextInt();
         System.out.println("Enter secret by bob");
         int b = sc.nextInt();
@@ -16,8 +16,7 @@ public class prac4 {
         
         System.out.println("X :"+x);
         System.out.println("Y :"+y);
-        
-        
+           
         int k1 = (int) Math.pow(y, a)%P;
         int k2 = (int) Math.pow(x, b)%P;
         
