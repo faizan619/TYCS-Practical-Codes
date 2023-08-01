@@ -22,7 +22,7 @@ public class SHAProgramINS {
     
     public static void main(String[] args){
         System.out.println("HashCode by SHA-1 for :");
-        String s1 = "hello world";
+        String s1 = "Faizan alam";
         System.out.println("\n"+s1+" : "+encryptThisString(s1));
     }
     
