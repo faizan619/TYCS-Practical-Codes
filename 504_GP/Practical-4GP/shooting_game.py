@@ -1,3 +1,6 @@
+# create 2D target shooting Game
+# Date : 7/8/2023
+
 import pygame
 import random
 #screen
