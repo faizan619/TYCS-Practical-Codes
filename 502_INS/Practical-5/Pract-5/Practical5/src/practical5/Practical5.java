@@ -34,7 +34,7 @@ public class Practical5 {
             sigfos.close();
             
             byte[] key = pub.getEncoded();
-            FileOutputStream keyfos = new FileOutputStream("D:\\TYCS\\502_INS\\Practical-5\\Pract-5\\Practical5\\src\\practical5\\Digi.txt");
+            FileOutputStream keyfos = new FileOutputStream("D:\\TYCS\\502_INS\\Practical-5\\Pract-5\\Practical5\\src\\practical5\\PublicKey.txt");
             keyfos.write(key);
             keyfos.close();
             
