@@ -5,7 +5,7 @@ import java.security.*;
 public class Practical5 { 
     public static void main(String[] args) {
         // TODO code application logic here
-        if(args.length != 1){
+        if(args.length == 1){
             System.out.println("usage : name of the file to sign ");
         }
         else try{
@@ -15,7 +15,7 @@ public class Practical5 {
             KeyPair pair = keyGen.generateKeyPair();
             PrivateKey priv = pair.getPrivate();
             PublicKey pub = pair.getPublic();    
-            Signature dsa = Signature.getInstance("SHA1 with DSA","SUN");
+            Signature dsa = Signature.getInstance("SHA1withDSA","SUN");
             dsa.initSign(priv);
             
             FileInputStream fis = new FileInputStream("D:\\TYCS\\502_INS\\Practical-5\\Pract-5\\Practical5\\src\\practical5\\Digital.txt");
@@ -29,12 +29,12 @@ public class Practical5 {
             bufin.close();
             
             byte[] realSig = dsa.sign();
-            FileOutputStream sigfos = new FileOutputStream("D:\\TYCS\\502_INS\\Practical-5\\Pract-5\\Practical5\\src\\practical5\\Digital.txt");
+            FileOutputStream sigfos = new FileOutputStream("D:\\TYCS\\502_INS\\Practical-5\\Pract-5\\Practical5\\src\\practical5\\Digi.txt");
             sigfos.write(realSig);
             sigfos.close();
             
             byte[] key = pub.getEncoded();
-            FileOutputStream keyfos = new FileOutputStream("D:\\TYCS\\502_INS\\Practical-5\\Pract-5\\Practical5\\src\\practical5\\Digital.txt");
+            FileOutputStream keyfos = new FileOutputStream("D:\\TYCS\\502_INS\\Practical-5\\Pract-5\\Practical5\\src\\practical5\\Digi.txt");
             keyfos.write(key);
             keyfos.close();
             
