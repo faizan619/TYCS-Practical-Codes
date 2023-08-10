@@ -1,0 +1,4 @@
+INDEX VERSION 1.130+D:\TYCS\503_STQA\Practical 5\.metadata\.plugins\org.eclipse.jdt.core
+2541903533.index
+1216951899.index
+2153443333.index
