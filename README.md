@@ -17,3 +17,6 @@
     Visual Studio  
     Unity  
     Pygames   
+
+
+https://github.com/smashingmagazine/image-to-text
